@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="" />
+    <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/homework_one/Aggregation/Aggregation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/Aggregation/src/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/Aggregation/src/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/Aggregation/src/Textbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/inheritance/src/BaseEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/inheritance/src/CommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/inheritance/src/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/inheritance/src/SalariedEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/polymorphism/polymorphism.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/polymorphism/src/CargoShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/polymorphism/src/CruiseShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_one/polymorphism/src/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_one/inheritance/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/inheritance/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_one/inheritance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/inheritance/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,21 +41,40 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2c7AryzYCkZkcXG2DNr46IzQo32" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework_one" />
+      <recent name="$PROJECT_DIR$/homework_one/inheritance/src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,10 +90,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707452449483</updated>
+      <workItem from="1707452450517" duration="2378000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
