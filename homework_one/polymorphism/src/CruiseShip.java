@@ -15,7 +15,7 @@ public class CruiseShip extends Ship {
     }
 
     @Override
-    public String toString() {
-        return String.format("Cruise Ship: %s Year Built: %s Max Passengers: %d", getName(), getYearBuilt(), getMaxPassengers());
+    public void print() {
+        System.out.println("Cruise Ship: " + name + " built in " + yearBuilt + " with max passengers of " + maxPassengers);
     }
 }

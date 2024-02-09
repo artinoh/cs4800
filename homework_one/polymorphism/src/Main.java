@@ -6,7 +6,7 @@ public class Main {
         ships[2] = new CargoShip("OOCL Hong Kong", "2017", 241888);
 
         for (Ship ship : ships) {
-            System.out.println(ship);
+            ship.print();
         }
 
     }

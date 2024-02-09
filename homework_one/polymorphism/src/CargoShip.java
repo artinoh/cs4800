@@ -15,7 +15,7 @@ public class CargoShip extends Ship {
     }
 
     @Override
-    public String toString() {
-        return String.format("Cargo Ship: %s Year Built: %s Max Cargo: %d TEU", getName(), getYearBuilt(), getMaxCargo());
+    public void print() {
+        System.out.println("Cargo Ship: " + name + " built in " + yearBuilt + " with max cargo of " + maxCargo);
     }
 }

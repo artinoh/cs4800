@@ -23,8 +23,7 @@ public class Ship {
         this.yearBuilt = yearBuilt;
     }
 
-    @Override
-    public String toString() {
-        return String.format("Ship: %s Year Built: %s", getName(), getYearBuilt());
+    public void print() {
+        System.out.println("Ship: " + name + " built in " + yearBuilt);
     }
 }

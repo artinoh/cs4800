@@ -12,7 +12,7 @@ public class Main {
         softwareEngineering.addTextbook(cleanCode);
         softwareEngineering.addTextbook(designPatterns);
 
-        System.out.println(softwareEngineering);
+        softwareEngineering.print();
 
 
     }

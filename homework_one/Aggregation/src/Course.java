@@ -35,22 +35,17 @@ public class Course {
         instructors.add(instructor);
     }
 
-    public String toString() {
+    public void print() {
         StringBuilder result = new StringBuilder("Course: " + name + "\n");
         result.append("Textbooks:\n");
         for (Textbook textbook : textbooks) {
-            result.append(textbook);
-            if (textbooks.indexOf(textbook) != textbooks.size() - 1) {
-                result.append(", ");
-            }
+            result.append(textbook).append("\n");
         }
+
         result.append("Instructors:\n");
         for (Instructor instructor : instructors) {
-            result.append(instructor);
-            if (instructors.indexOf(instructor) != instructors.size() - 1) {
-                result.append(", ");
-            }
+            result.append(instructor).append("\n");
         }
-        return result.toString();
+        System.out.println(result);
     }
 }
