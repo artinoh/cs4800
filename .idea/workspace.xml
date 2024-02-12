@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_one/Aggregation/src/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/Aggregation/src/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_one/Aggregation/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/Aggregation/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_one/polymorphism/src/CargoShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/polymorphism/src/CargoShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_one/polymorphism/src/CruiseShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/polymorphism/src/CruiseShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_one/polymorphism/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/polymorphism/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_one/polymorphism/src/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/polymorphism/src/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_one/composition/src/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/composition/src/Folder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_one/composition/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_one/composition/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2c7AryzYCkZkcXG2DNr46IzQo32" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,27 +36,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/homework_one" />
@@ -81,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707452449483</updated>
-      <workItem from="1707452450517" duration="3534000" />
+      <workItem from="1707452450517" duration="5053000" />
+      <workItem from="1707639878758" duration="4630000" />
     </task>
     <servers />
   </component>
