@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object "<u>professorNima:Instructor</u>" as ND {
+  firstName = "Nima"
+  lastName = "Davarpanah"
+  officeNumber = "3-2636"
+}
+
+object "<u>cleanCode:Textbook</u>" as CC {
+  title = "Clean Code"
+  author = "Robert C. Martin"
+  publisher = "Prentice Hall"
+}
+
+object "<u>softwareEngineering:Course</u>" as SWE {
+  name = "Software Engineering"
+}
+
+SWE --> ND : "instructor"
+SWE --> CC : "textbook"
+
+@enduml

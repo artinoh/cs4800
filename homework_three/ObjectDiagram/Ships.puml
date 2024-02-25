@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object "<u>ships[0]:Ship</u>" as Ship {
+  name = "HMS Victory"
+  yearBuilt = "1765"
+}
+
+object "<u>ships[1]:CruiseShip</u>" as Cruise {
+  name = "Titanic"
+  yearBuilt = "1912"
+  maxPassengers = 2453
+}
+
+object "<u>ships[2]:CargoShip</u>" as Cargo {
+  name = "OOCL Hong Kong"
+  yearBuilt = "2017"
+  maxCargo = 241888
+}
+
+@enduml
