@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Folder {
+    - name : String
+    - files : ArrayList<File>
+    - subFolders : ArrayList<Folder>
+    + Folder(name : String)
+    + getName() : String
+    + getFiles() : ArrayList<File>
+    + getSubFolders() : ArrayList<Folder>
+    + setName(name : String) : void
+    + addFile(name : String) : void
+    + addSubFolder(name : String) : void
+    + addFileToPath(path : String, name : String) : boolean
+    + removeFileFromPath(path : String, fileName : String) : boolean
+    + removeSubFolderFromPath(path : String, folderName : String) : boolean
+    + addFolderToPath(path : String) : boolean
+    + removeSubFolder(name : String) : boolean
+    + removeFile(name : String) : boolean
+    + print() : void
+    - printRecursive(level : int) : void
+    - endOfPath(path : String) : boolean
+    - getPathData(path : String) : Optional<PathData>
+}
+
+class PathData {
+    - nextFolder : String
+    - remainingPath : String
+    + PathData(nextFolder : String, remainingPath : String)
+    + getNextFolder() : String
+    + getRemainingPath() : String
+}
+
+class File {
+    - name : String
+    + File(name : String)
+    + getName() : String
+    + setName(name : String) : void
+}
+
+Folder "1" *-- "many" File
+Folder "1" *-- "many" Folder
+
+
+
+@enduml

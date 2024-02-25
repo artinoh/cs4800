@@ -107,7 +107,8 @@ public class Folder {
                 if (folder.getName().equals(pathData.get().getNextFolder())) {
                     if (pathData.get().getRemainingPath().isEmpty()) {
                         return folder.removeSubFolder(folderName);
-                    } else {
+                    }
+                    else {
                         return folder.removeSubFolderFromPath(pathData.get().getRemainingPath(), folderName);
                     }
                 }
