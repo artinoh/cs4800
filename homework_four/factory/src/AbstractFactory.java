@@ -1,4 +1,4 @@
-//make a singleton abstract factory
+
 public class AbstractFactory {
     private static AbstractFactory instance = null;
 

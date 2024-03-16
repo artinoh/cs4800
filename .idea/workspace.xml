@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework_four/builder/builder.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/builder/src/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/factory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/DietPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/DietPlanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/DietType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/FoodOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/FoodOptionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/Macronutrient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_four/factory/src/MacronutrientType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +116,7 @@
       <workItem from="1709777394973" duration="600000" />
       <workItem from="1710092297491" duration="3059000" />
       <workItem from="1710332873369" duration="5671000" />
-      <workItem from="1710548912102" duration="9642000" />
+      <workItem from="1710548912102" duration="9960000" />
     </task>
     <servers />
   </component>
