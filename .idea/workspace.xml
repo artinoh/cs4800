@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="" />
+    <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/homework_five.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/Entree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/EntreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/FoodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/LoyaltyDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/LoyaltyDiscountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_five/src/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs4800.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cs4800.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +38,7 @@
         <option value="UML Object" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,28 +70,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Object&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Object",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BurgerTest.executor": "Run",
+    "JUnit.CustomerTest.executor": "Run",
+    "JUnit.EntreeTest.executor": "Run",
+    "JUnit.FoodTest.executor": "Run",
+    "JUnit.LoyaltyDiscountTest.executor": "Run",
+    "JUnit.OrderTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "Entree",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/homework_four/factory/src" />
@@ -77,6 +113,13 @@
       <recent name="$PROJECT_DIR$/homework_three/ClassDiagram" />
       <recent name="$PROJECT_DIR$/homework_three" />
       <recent name="$PROJECT_DIR$/homework_one" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="Entree" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,7 +159,8 @@
       <workItem from="1709777394973" duration="600000" />
       <workItem from="1710092297491" duration="3059000" />
       <workItem from="1710332873369" duration="5671000" />
-      <workItem from="1710548912102" duration="9960000" />
+      <workItem from="1710548912102" duration="11169000" />
+      <workItem from="1711645449016" duration="7262000" />
     </task>
     <servers />
   </component>
