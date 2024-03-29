@@ -14,8 +14,12 @@ public class Customer {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Customer with ").append(status).append(" status\n");
-        sb.append(order.toString());
+        sb.append("Customer Details:\n")
+                .append("Loyalty Status: ").append(status).append("\n")
+                .append("Order Details:\n").append(order.toString())
+                .append("\nTotal Cost after ").append(status).append(" discount: $")
+                .append(String.format("%.2f", getCost()))
+                .append("\n");
         return sb.toString();
     }
 }

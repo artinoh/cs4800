@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Order {
-    private ArrayList<Food> items;
+    private final ArrayList<Food> items;
 
     public Order() {
         this.items = new ArrayList<>();
@@ -31,14 +31,15 @@ public class Order {
     public String toString () {
         StringBuilder sb = new StringBuilder();
         for (Food item : items) {
+            double itemCost = item.getCost();
             sb.append(item.toString())
                     .append(" : Cost: $")
-                    .append(item.getCost())
+                    .append(String.format("%.2f", itemCost))
                     .append("\n");
         }
         sb.append("\n")
-            .append("TotalCost: $")
-            .append(getCost());
+                .append("TotalCost: $")
+                .append(String.format("%.2f", getCost()));
         return sb.toString();
     }
 

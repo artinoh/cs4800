@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/homework_five.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/Entree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/EntreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/FoodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/LoyaltyDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/LoyaltyDiscountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_five/src/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs4800.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cs4800.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_five/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_five/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_five/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_five/src/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +59,12 @@
     "DefaultPlantUmlFileTemplate": "UML Object",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.BurgerTest.executor": "Run",
-    "JUnit.CustomerTest.executor": "Run",
-    "JUnit.EntreeTest.executor": "Run",
+    "JUnit.CustomerTest.executor": "Profiler#1",
+    "JUnit.EntreeTest.executor": "Debug",
     "JUnit.FoodTest.executor": "Run",
-    "JUnit.LoyaltyDiscountTest.executor": "Run",
-    "JUnit.OrderTest.executor": "Run",
+    "JUnit.LoyaltyDiscountTest.executor": "Coverage",
+    "JUnit.OrderTest.executor": "Profiler#1",
+    "JUnit.RunTests.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -130,6 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunTests" type="JUnit" factoryName="JUnit" singleton="false">
+      <module name="homework_five" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <dir value="$PROJECT_DIR$/homework_five/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RunTests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -160,7 +163,7 @@
       <workItem from="1710092297491" duration="3059000" />
       <workItem from="1710332873369" duration="5671000" />
       <workItem from="1710548912102" duration="11169000" />
-      <workItem from="1711645449016" duration="7262000" />
+      <workItem from="1711645449016" duration="9041000" />
     </task>
     <servers />
   </component>
@@ -177,5 +180,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cs4800$LoyaltyDiscountTest.ic" NAME="LoyaltyDiscountTest Coverage Results" MODIFIED="1711721561182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

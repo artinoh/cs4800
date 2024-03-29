@@ -30,7 +30,7 @@ public class Main {
         Customer jane = new Customer(
             new Order(
                 new ArrayList<Food>(Arrays.asList(
-                    new Burger(
+                    new HotDog(
                         new Toppings(
                             new ArrayList<Food>(Arrays.asList(
                                 new Bacon(),
