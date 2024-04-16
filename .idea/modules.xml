@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/homework_five/homework_five.iml" filepath="$PROJECT_DIR$/homework_five/homework_five.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_four/homework_four.iml" filepath="$PROJECT_DIR$/homework_four/homework_four.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_one/homework_one.iml" filepath="$PROJECT_DIR$/homework_one/homework_one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_six/homework_six.iml" filepath="$PROJECT_DIR$/homework_six/homework_six.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_one/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/homework_one/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_one/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/homework_one/polymorphism/polymorphism.iml" />
     </modules>
