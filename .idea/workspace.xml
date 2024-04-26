@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework_six/homework_six.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/ChatHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/ChatHistoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/ChatServerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/IterableByUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/MessageMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/MessageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_six/src/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_seven/flyweight/flyweight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterPropertyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterPropertyFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterPropertyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/DocumentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_seven/homework_seven.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -63,46 +60,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Object&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.BurgerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ChatHistoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CustomerTest.executor&quot;: &quot;Profiler#1&quot;,
-    &quot;JUnit.EntreeTest.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.FoodTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoyaltyDiscountTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.OrderTest.executor&quot;: &quot;Profiler#1&quot;,
-    &quot;JUnit.RunTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RuneTestsHwkSix.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;Entree&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Object",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in flyweight (1).executor": "Run",
+    "JUnit.All in flyweight (2).executor": "Run",
+    "JUnit.All in flyweight.executor": "Run",
+    "JUnit.BurgerTest.executor": "Run",
+    "JUnit.CharacterPropertyFactoryTest.executor": "Run",
+    "JUnit.ChatHistoryTest.executor": "Run",
+    "JUnit.CustomerTest.executor": "Profiler#1",
+    "JUnit.EntreeTest.executor": "Debug",
+    "JUnit.FoodTest.executor": "Run",
+    "JUnit.LoyaltyDiscountTest.executor": "Coverage",
+    "JUnit.OrderTest.executor": "Profiler#1",
+    "JUnit.RunTests.executor": "Run",
+    "JUnit.RuneTestsHwkSix.executor": "Run",
+    "JUnit.TestsFlyweight.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "Entree",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/homework_four/factory/src" />
@@ -119,10 +121,47 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RuneTestsHwkSix">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="factory" />
+  <component name="RunManager">
+    <configuration name="All in flyweight (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in flyweight (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in flyweight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterPropertyFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CharacterPropertyFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DocumentTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,19 +188,30 @@
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="directory" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <dir value="$PROJECT_DIR$/homework_six/src" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.RunTestsHwkFive" />
       <item itemvalue="JUnit.RuneTestsHwkSix" />
+      <item itemvalue="JUnit.All in flyweight (1)" />
+      <item itemvalue="JUnit.All in flyweight (2)" />
+      <item itemvalue="JUnit.CharacterPropertyFactoryTest" />
+      <item itemvalue="JUnit.DocumentTest" />
+      <item itemvalue="JUnit.All in flyweight" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DocumentTest" />
+        <item itemvalue="JUnit.CharacterPropertyFactoryTest" />
+        <item itemvalue="JUnit.All in flyweight (2)" />
+        <item itemvalue="JUnit.All in flyweight (1)" />
+        <item itemvalue="JUnit.All in flyweight" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +242,15 @@
       <workItem from="1711645449016" duration="9374000" />
       <workItem from="1712289847010" duration="598000" />
       <workItem from="1712704161277" duration="7565000" />
-      <workItem from="1713218365183" duration="2403000" />
+      <workItem from="1713218365183" duration="2710000" />
+      <workItem from="1713290232850" duration="584000" />
+      <workItem from="1713352979130" duration="590000" />
+      <workItem from="1713475920649" duration="57000" />
+      <workItem from="1713595508788" duration="601000" />
+      <workItem from="1713709400338" duration="599000" />
+      <workItem from="1713713827476" duration="599000" />
+      <workItem from="1713753779823" duration="599000" />
+      <workItem from="1713829350956" duration="6261000" />
     </task>
     <servers />
   </component>

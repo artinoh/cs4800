@@ -1,0 +1,7 @@
+HelloWorldCS4800
+
+
+CharacterProperty|Arial,12,Black|0,1,2,3,4
+CharacterProperty|Arial,12,Red|12,13,14,15
+CharacterProperty|Calibri,14,Blue|5,6,7,8,9
+CharacterProperty|Verdana,16,Black|10,11
