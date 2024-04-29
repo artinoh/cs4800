@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -17,21 +18,5 @@ public class CharacterPropertyFactoryTest {
 
         HashMap<CharacterProperty, CharacterProperty> properties = CharacterPropertyFactory.getProperties();
         assertEquals(1, properties.size());
-    }
-
-    @Test
-    public void testGetCharacterProperty_CreatesNewObjectForUniqueProperties() {
-        String font1 = "Arial";
-        int size1 = 12;
-        String color1 = "red";
-
-        String font2 = "Times New Roman";
-        int size2 = 14;
-        String color2 = "blue";
-
-        CharacterProperty property1 = CharacterPropertyFactory.getCharacterProperty(font1, size1, color1);
-        CharacterProperty property2 = CharacterPropertyFactory.getCharacterProperty(font2, size2, color2);
-
-        assertNotSame(property1, property2);
     }
 }

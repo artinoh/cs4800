@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f1f8f1-ee2c-4d44-b0b6-a8abd44322d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/proxy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/src/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/src/SongDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/src/SongDatabaseInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/src/SongService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/src/SongServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/src/SongServiceProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/src/SongServiceServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_seven/proxy/src/SongServiceServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_seven/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterPropertyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterPropertyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterPropertyFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_seven/flyweight/src/CharacterPropertyFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +62,11 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in flyweight (1).executor": "Run",
     "JUnit.All in flyweight (2).executor": "Run",
+    "JUnit.All in flyweight (3).executor": "Run",
+    "JUnit.All in flyweight (4).executor": "Run",
     "JUnit.All in flyweight.executor": "Run",
     "JUnit.BurgerTest.executor": "Run",
+    "JUnit.CharacterPropertyFactoryTest.TestReturnsExistingObject.executor": "Debug",
     "JUnit.CharacterPropertyFactoryTest.executor": "Run",
     "JUnit.ChatHistoryTest.executor": "Run",
     "JUnit.CustomerTest.executor": "Profiler#1",
@@ -126,8 +121,32 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in flyweight">
     <configuration name="All in flyweight (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in flyweight (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in flyweight (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in flyweight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="flyweight" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -139,15 +158,6 @@
       <module name="flyweight" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CharacterPropertyFactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="flyweight" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DocumentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,40 +193,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SongServiceProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proxy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SongServiceProxyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SongServiceServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proxy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SongServiceServerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.RunTestsHwkFive" />
       <item itemvalue="JUnit.RuneTestsHwkSix" />
       <item itemvalue="JUnit.All in flyweight (2)" />
+      <item itemvalue="JUnit.All in flyweight (3)" />
+      <item itemvalue="JUnit.All in flyweight (4)" />
       <item itemvalue="JUnit.CharacterPropertyFactoryTest" />
-      <item itemvalue="JUnit.DocumentTest" />
-      <item itemvalue="JUnit.SongServiceProxyTest" />
-      <item itemvalue="JUnit.SongServiceServerTest" />
+      <item itemvalue="JUnit.All in flyweight" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SongServiceProxyTest" />
-        <item itemvalue="JUnit.SongServiceServerTest" />
-        <item itemvalue="JUnit.DocumentTest" />
-        <item itemvalue="JUnit.CharacterPropertyFactoryTest" />
+        <item itemvalue="JUnit.All in flyweight" />
         <item itemvalue="JUnit.All in flyweight (2)" />
+        <item itemvalue="JUnit.CharacterPropertyFactoryTest" />
+        <item itemvalue="JUnit.All in flyweight (4)" />
+        <item itemvalue="JUnit.All in flyweight (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +247,7 @@
       <workItem from="1713709400338" duration="599000" />
       <workItem from="1713713827476" duration="599000" />
       <workItem from="1713753779823" duration="599000" />
-      <workItem from="1713829350956" duration="9855000" />
+      <workItem from="1713829350956" duration="11180000" />
     </task>
     <servers />
   </component>
@@ -272,6 +264,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework_seven/flyweight/src/CharacterPropertyFactoryTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cs4800$LoyaltyDiscountTest.ic" NAME="LoyaltyDiscountTest Coverage Results" MODIFIED="1711721561182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
