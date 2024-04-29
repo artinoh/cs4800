@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/homework_six/homework_six.iml" filepath="$PROJECT_DIR$/homework_six/homework_six.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_one/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/homework_one/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_one/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/homework_one/polymorphism/polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_seven/proxy/proxy.iml" filepath="$PROJECT_DIR$/homework_seven/proxy/proxy.iml" />
     </modules>
   </component>
 </project>
